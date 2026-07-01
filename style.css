@@ -68,8 +68,8 @@ ul{
 
 .footer-middle{
     display:grid;
-    grid-template-columns:repeat(5,1fr);
-    gap:60px;
+    grid-template-columns: 1fr 1fr 1fr 1.5fr 220px;
+    gap:40px;
     align-items:flex-start;
 }
 
@@ -260,6 +260,44 @@ display:none;
 
 width:70px;
 
+}
+.contact-info{
+    min-width:320px;
+}
+
+.contact-item{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:15px;
+    margin-bottom:18px;
+}
+
+.contact-item .label{
+    color:#666;
+    white-space:nowrap;
+    font-weight:bold;
+}
+
+.contact-item .value{
+    color:#222;
+    text-align:right;
+    line-height:1.8;
+}
+
+.trust-section{
+    text-align:center;
+}
+
+.trust-icons{
+    display:flex;
+    gap:15px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.trust-icons img{
+    width:90px;
 }
 
 }
