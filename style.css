@@ -3,6 +3,13 @@
     padding:0;
     box-sizing:border-box;
 }
+@font-face {
+    font-family: "vazir";
+    src: url("fonts/Vazir.ttf")format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
 
 html{
     scroll-behavior:smooth;
@@ -10,7 +17,7 @@ html{
 
 body{
     direction:rtl;
-    font-family:Tahoma,sans-serif;
+    font-family: vazir;
     background:#fff;
     color:#222;
 }
@@ -46,7 +53,7 @@ ul{
 }
 
 .footer-logo img{
-    width:80px;
+    width:170px;
     height:auto;
     object-fit:contain;
 }
@@ -68,7 +75,7 @@ ul{
 
 .footer-middle{
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1.5fr 220px;
+    grid-template-columns: 1fr 1fr 1fr 1.8fr ;
     gap:40px;
     align-items:flex-start;
 }
@@ -91,7 +98,7 @@ ul{
 }
 
 .footer-column ul li a:hover{
-    color:#28316a;
+    color:#ff7a00;
     padding-right:8px;
 }
 
@@ -120,7 +127,7 @@ ul{
 
 .social-icons a:hover{
     transform:translateY(-4px);
-    border-color:#28316a;
+    border-color:#ff7a00;
     box-shadow:0 8px 18px rgba(0,0,0,.08);
 }
 
@@ -263,14 +270,16 @@ width:70px;
 }
 .contact-info{
     min-width:320px;
+    margin-left: 90px;
+    text-align: center;
 }
 
 .contact-item{
     display:flex;
-    justify-content:space-between;
-    align-items:flex-start;
-    gap:15px;
-    margin-bottom:18px;
+    flex-direction:column;
+    align-items:center;
+    gap:5px;
+    margin-bottom:20px;
 }
 
 .contact-item .label{
@@ -281,7 +290,7 @@ width:70px;
 
 .contact-item .value{
     color:#222;
-    text-align:right;
+    text-align:center;
     line-height:1.8;
 }
 
