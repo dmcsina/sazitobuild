@@ -18,7 +18,7 @@ html{
 body{
     direction:rtl;
     font-family: vazir;
-    background:#fff;
+    background:#000000;
     color:#222;
 }
 
@@ -35,7 +35,7 @@ ul{
     width:100%;
     background:#ffffff;
     border-top:1px solid #ececec;
-    padding:60px 0 40px;
+    padding:0px 0 0px;
 }
 
 .footer-container{
@@ -63,7 +63,7 @@ ul{
     align-items:center;
     gap:18px;
     flex-wrap:wrap;
-    color:#555;
+    color:#222;
     font-size:15px;
 }
 
@@ -76,13 +76,13 @@ ul{
 .footer-middle{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1.8fr ;
-    gap:40px;
+    gap:20px;
     align-items:flex-start;
 }
 
 .footer-column h3{
     font-size:22px;
-    color:#28316a;
+    color:#ff7b00b4;
     margin-bottom:25px;
     font-weight:700;
 }
@@ -92,7 +92,7 @@ ul{
 }
 
 .footer-column ul li a{
-    color:#7b7b7b;
+    color:#222;
     font-size:16px;
     transition:.3s;
 }
